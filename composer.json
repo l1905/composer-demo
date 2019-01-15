@@ -1,0 +1,20 @@
+{
+  "name": "litong/composer_demo",
+  "description": "测试实践composer",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "litong",
+      "email": "litonglitong@hotmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "litong\\composer_demo\\": "src"
+    }
+  }
+}
